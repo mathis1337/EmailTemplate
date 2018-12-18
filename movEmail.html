@@ -4,9 +4,6 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
  	<meta name="format-detection" content="telephone=no"/>
 
-	<!-- Responsive Mobile-First Email Template by Konstantin Savchenko, 2015.
-	https://github.com/konsav/email-templates/  -->
-
 	<style>
 /* Reset styles */ 
 body { margin: 0; padding: 0; min-width: 100%; width: 100% !important; height: 100% !important;}
@@ -33,7 +30,7 @@ a, a:hover {
  	</style>
 
 	<!-- MESSAGE SUBJECT -->
-	<title>Welcome to Movplicity</title>
+	<title>{MessageTitle}</title>
 
 </head>
 
@@ -98,27 +95,27 @@ a, a:hover {
 			padding-top: 25px;
 			color: #000000;
 			font-family: sans-serif;" class="header">
-				Welcome to Movplicity
+				{MessageTitle}
 		</td>
 	</tr>
 	
 	<!-- SUBHEADER -->
 	<!-- Set text color and font family ("sans-serif" or "Georgia, serif") -->
-	<tr>
+	<!-- <tr>
 		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-bottom: 3px; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 18px; font-weight: 300; line-height: 150%;
 			padding-top: 5px;
 			color: #000000;
 			font-family: sans-serif;" class="subheader">
 				Where Moving Meets Simplicity
 		</td>
-	</tr>
+	</tr> -->
 
 	<!-- HERO IMAGE -->
 	<!-- Image text color should be opposite to background color. Set your url, image src, alt and title. Alt text should fit the image size. Real image size should be x2 (wrapper x2). Do not set height for flexible images (including "auto"). URL format: http://domain.com/?utm_source={{Campaign-Source}}&utm_medium=email&utm_content={{Ìmage-Name}}&utm_campaign={{Campaign-Name}} -->
 	<tr>
 		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;
 			padding-top: 20px;" class="hero"><a target="_blank" style="text-decoration: none;"
-			href="https://github.com/konsav/email-templates/"><img border="0" vspace="0" hspace="0"
+			href="https://movplicity.com"><img border="0" vspace="0" hspace="0"
 			src="https://raw.githubusercontent.com/mathis1337/EmailTemplate/master/Images/MLogo.png"
 			alt="Please enable images to view this content" title="Hero Image"
 			width="414px" style="
@@ -134,7 +131,7 @@ a, a:hover {
 			padding-top: 25px; 
 			color: #000000;
 			font-family: sans-serif;" class="paragraph">
-				Congratulations your free Movplicity account has been activated! This will allow you to digitally set up your new home services, forward mail, connect utilities, and make sure everything is ready when you move. Our team is dedicated to helping simplify the moving process, allowing you to focus on the excitement of your new home. Movplicity is where moving meets simplicity.  
+				{MessageBody}
 		</td>
 
 	</tr>
@@ -154,11 +151,11 @@ a, a:hover {
 		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
 			padding-top: 25px;
 			padding-bottom: 5px;" class="button"><a
-			href="https://github.com/konsav/email-templates/" target="_blank" style="text-decoration: underline;">
+			href="https://movplicity.com/Account/Login" target="_blank" style="text-decoration: underline;">
 				<table border="0" cellpadding="0" cellspacing="0" align="center" style="max-width: 240px; min-width: 120px; border-collapse: collapse; border-spacing: 0; padding: 0;"><tr><td align="center" valign="middle" style="padding: 12px 24px; margin: 0; text-decoration: underline; border-collapse: collapse; border-spacing: 0; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px;"
 					bgcolor="#007edb"><a target="_blank" style="text-decoration: underline;
 					color: #FFFFFF; font-family: sans-serif; font-size: 17px; font-weight: 400; line-height: 120%;"
-					href="https://github.com/konsav/email-templates/">
+					href="https://movplicity.com/Account/Login">
 						Login
 					</a>
 			</td></tr></table></a>
@@ -183,24 +180,24 @@ a, a:hover {
 
 				<!-- LIST ITEM IMAGE -->
 				<!-- Image text color should be opposite to background color. Set your url, image src, alt and title. Alt text should fit the image size. Real image size should be x2 -->
-				<td align="left" valign="top" style="border-collapse: collapse; border-spacing: 0;
+				<!-- <td align="left" valign="top" style="border-collapse: collapse; border-spacing: 0;
 					padding-top: 30px;
 					padding-right: 20px;"><img
 				border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;
 					color: #000000;"
 					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/list-item.png"
-					alt="H" title="Highly compatible"
-					width="50" height="50"></td>
+					alt="H" title="Some Title"
+					width="50" height="50"></td> -->
 
 				<!-- LIST ITEM TEXT -->
 				<!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
-				<td align="left" valign="top" style="font-size: 17px; font-weight: 400; line-height: 160%; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;
+				<!-- <td align="left" valign="top" style="font-size: 17px; font-weight: 400; line-height: 160%; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;
 					padding-top: 25px;
 					color: #000000;
 					font-family: sans-serif;" class="paragraph">
-						<b style="color: #333333;">Highly compatible</b><br/>
-						Tested on the most popular email clients for web, desktop and mobile. Checklist included.
-				</td>
+						<b style="color: #333333;">Some Title</b><br/>
+						Some Text - Here we can put some text or other taglines if you want Wes.
+				</td> -->
 
 			</tr>
 
@@ -209,24 +206,24 @@ a, a:hover {
 
 				<!-- LIST ITEM IMAGE -->
 				<!-- Image text color should be opposite to background color. Set your url, image src, alt and title. Alt text should fit the image size. Real image size should be x2 -->
-				<td align="left" valign="top" style="border-collapse: collapse; border-spacing: 0;
+				<!-- <td align="left" valign="top" style="border-collapse: collapse; border-spacing: 0;
 					padding-top: 30px;
 					padding-right: 20px;"><img
 				border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;
 					color: #000000;"
 					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/list-item.png"
-					alt="D" title="Designer friendly"
-					width="50" height="50"></td>
+					alt="D" title="Some Title 2"
+					width="50" height="50"></td> -->
 
 				<!-- LIST ITEM TEXT -->
 				<!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
-				<td align="left" valign="top" style="font-size: 17px; font-weight: 400; line-height: 160%; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;
+				<!-- <td align="left" valign="top" style="font-size: 17px; font-weight: 400; line-height: 160%; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;
 					padding-top: 25px;
 					color: #000000;
 					font-family: sans-serif;" class="paragraph">
-						<b style="color: #333333;">Designer friendly</b><br/>
-						Sketch app resource file and a&nbsp;bunch of&nbsp;social media icons are&nbsp;also included in&nbsp;GitHub repository.
-				</td>
+						<b style="color: #333333;">Some Title 2</b><br/>
+						Some Text 2 - Here we can put some text or other taglines if you want Wes.
+				</td> -->
 
 			</tr>
 
@@ -235,12 +232,12 @@ a, a:hover {
 
 	<!-- LINE -->
 	<!-- Set line color -->
-	<tr>
+	<!-- <tr>
 		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
 			padding-top: 25px;" class="line"><hr
 			color="#E0E0E0" align="center" width="100%" size="1" noshade style="margin: 0; padding: 0;" />
 		</td>
-	</tr>
+	</tr> -->
 
 	<!-- PARAGRAPH -->
 	<!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
@@ -278,7 +275,7 @@ a, a:hover {
 					color: #000000;"
 					alt="F" title="Facebook"
 					width="44" height="44"
-					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/facebook.png"></a></td>
+					src="https://raw.githubusercontent.com/mathis1337/EmailTemplate/master/Images/facebook.png"></a></td>
 
 				<!-- ICON 2 -->
 				<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
@@ -287,7 +284,7 @@ a, a:hover {
 					color: #000000;"
 					alt="T" title="Twitter"
 					width="44" height="44"
-					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/twitter.png"></a></td>				
+					src="https://raw.githubusercontent.com/mathis1337/EmailTemplate/master/Images/twitter.png"></a></td>				
 
 				<!-- ICON 3 -->
 				<!-- <td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
@@ -305,7 +302,7 @@ a, a:hover {
 					color: #000000;"
 					alt="I" title="Instagram"
 					width="44" height="44"
-					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/instagram.png"></a></td>
+					src="https://raw.githubusercontent.com/mathis1337/EmailTemplate/master/Images/instagram.png"></a></td>
 
 			</tr>
 			</table>
